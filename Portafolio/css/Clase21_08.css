@@ -16,4 +16,6 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     border-color: blue;
+    background-color:wheat;
+    display: flex;
 }
