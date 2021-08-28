@@ -11,10 +11,10 @@
 </head>
 <body>
 
-<div class= "Contenedor">
+<div class= "Contenedor" id="con">
 
     <div class="Izquierda">
-        <img src="../img/Foto.jpeg" alt="Foto del momento en que estaba haciendo el codigo" width="100%" height="450" aling="right">
+        <img src="../img/Foto2.jpeg" id="img" alt="Foto del momento en que estaba haciendo el codigo" width="100%" height="450" aling="right">
         <h1>Juan Daniel<br> Pérez Zapata</h1>
        <div class="Titulos1"> <h3>Habilidades.</h3></div>
         <ul>
@@ -29,7 +29,7 @@
             <li>Antioquia, Medellin.</li>
         </ul>
     </div>
-    <div class="Derecha">
+    <div class="Derecha" id="der">
         <div class="Titulos"><h3>Descripción.</h3></div>
         <p >Serio, responsable, se trabajar en equipo para 
             sacar proyectos adelante en los tiempos de entrega 
@@ -42,8 +42,29 @@
         <li>Bachillerato Unidada Educativa San Marcos, Envigado</li>
         <li>Estudiante Institución Universitaria de Envigado</li>
         </ul>
+        <button onclick="hackermode()">hackermode</button>
     </div>
 </div>
-
 </body>
+
+<script type="text/javascript">
+var am=true
+function hackermode(){
+ if (am){
+     document.getElementById("img").src="../img/Foto.jpeg"
+     document.getElementById("con").style.backgroundImage="url('https://thumbs.dreamstime.com/b/digital-background-green-matrix-binary-computer-code-hacker-coding-concept-d-rendering-196230895.jpg')" 
+     document.getElementById("der").style.color= "#fff"
+     am= false
+ }
+ else{
+    document.getElementById("img").src="../img/Foto2.jpeg"
+    document.getElementById("con").style.backgroundImage= ""
+    document.getElementById("der").style.color= "#000"
+    am=true
+ }
+ console.log(document.getElementById("con").style.backgroundImage)
+ 
+}
+
+</script>
 </html>
