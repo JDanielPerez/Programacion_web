@@ -1,0 +1,37 @@
+
+.Con1{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    text-align: center;
+    background-color: chartreuse;
+}
+
+body{
+    font-style: italic;
+}
+
+.mcelda{
+   font-size: 30px;
+   margin: 20px;
+   text-align: center;
+}
+.box1{
+    background-color: burlywood;
+}
+.box2{
+    background-color: cyan;
+
+
+}
+td:hover{
+    color: darkkhaki;
+    background: darkred;
+}
+td{
+    padding: 20px;
+}
+
+
+
