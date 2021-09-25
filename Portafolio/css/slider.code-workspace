@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\Proyecto_Marqueteria"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Programación_web"
+	}
+}
