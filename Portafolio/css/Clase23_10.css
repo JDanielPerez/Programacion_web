@@ -1,0 +1,67 @@
+
+.main_container{
+    background: #FFDF64;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.info{
+    background: #00B8A8;
+    border-radius: 10px;
+    display: grid;
+    grid-template-areas: 'name img' 'link img';
+
+}
+.grid-name{
+    grid-area: name;
+    margin-left: 20px;
+}
+.grid-link{
+    grid-area: link;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 5px;
+    text-decoration: none;
+}
+
+.grid-img{
+    grid-area: img;
+    height: 300px;
+    padding: 15px;
+}
+.grid-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.Activities{
+    background: #00B8A8;
+    border-radius: 10px;
+    display: grid;
+    text-align: left;
+    padding: 20px;
+}
+.percentage{
+    background: #00B8A8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.circle{
+    background: #FFEB99;
+    height: 60px;
+    width: 60px;
+    border-radius: 999px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
