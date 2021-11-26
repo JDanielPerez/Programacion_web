@@ -1,0 +1,46 @@
+{ "products":[
+    {
+      "id":1,
+      "name": "Tequila 1800",
+      "description": "Las primeras gotas de este tequila surgen en alambiques de cobre en el año de 1800.La creación de este tequila confirma el estilo de la línea Tequila 1800 por obtener el mejor resultado. La ligereza, los aromas frutales y herbales son resultado de la paciencia con la que fue vigilado su reposo.",
+      "cost":  43.99,
+      "status": "Disponible",
+      "img": "/Portafolio/Tienda_Licor/images/1800.jpg"
+    },
+    { "id":2,
+      "name": "Buchanans",
+      "description": "El clásico de hace más de 130 años, es un whisky de 12 años de añejamiento que se ha convertido en la referencia del whisky en México y Latinoamérica. Su sabor suave y afrutado, con notas de naranja y chocolate permiten servirlo en las rocas o con soda, acompañado de una rodaja de naranja. ",
+      "cost":  32.37,
+      "status": "Disponible",
+      "img": "/Portafolio/Tienda_Licor/images/Buchanans.jpg"
+    },
+    { "id":3,
+      "name": "Don Julio",
+      "description": "Don Julio es una marca de tequila producida en México. Es la marca más grande en valor y la octava en volumen. ",
+      "cost":  60.76,
+      "status": "Disponible",
+      "img": "/Portafolio/Tienda_Licor/images/Don_julio.jpg"
+    },
+    { "id":4,
+      "name": "Jaggermaister",
+      "description": "De botella verde y con la cabeza de un ciervo con una cruz en medio como insignia, esta famosa bebida tiene su origen en el año 1934, cuando un cazador de nombre Curt Mast empleó este término alemán para nombrar el brebaje que el mismo inventó para despabilarse del cruel frio de las noches de cacerías.",
+      "cost":  31.66,
+      "status": "Disponible",
+      "img": "/Portafolio/Tienda_Licor/images/jaggermaister.jpg"
+    },
+    { "id":5,
+      "name": "Jose Cuervo",
+      "description": "Celebra el legado de los primeros productores de tequila haciendo historia desde 1795. Es considerado uno de los mejores tequilas de México, este reposado pasa en promedio 6 meses en barricas de roble blanco, y tiene un aroma a agave cocido, toques frutales y herbales, con notas de aceituna.",
+      "cost":  17.86,
+      "status": "Disponible",
+      "img": "/Portafolio/Tienda_Licor/images/Jose_cuervo.jpg"
+    },
+    { "id":6,
+      "name": "Old parr",
+      "description": "Old Parr es un delicioso whisky originario de la zona noreste de Escocia, que debe su nombre en honor a Thomas “Old” Parr, quien era el hombre con mayor edad de toda Inglaterra. Nació en el año 1483, vivió 152 años y nueves meses y en 1635 falleció.",
+      "cost":  37.63,
+      "status": "Disponible",
+      "img": "/Portafolio/Tienda_Licor/images/Old_parr.jpg"
+    }
+  ]
+} 

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Portafolio/Tienda_Licor/css/licor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Liquors shop</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="logo"><img src="Images/Logo.png" alt=""></div>
+        <div class="menu_bar">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="menu" id="myLinks">
+            <ul>
+                <li><a href="#slider">Home.</a></li>
+                <li><a href="#our">liquors.</a></li>
+                <li><a href="#reci">Recipes.</a></li>
+                <li><a href="#foo">Contact.</a></li>
+            </ul>
+            
+        </div>
+        <div class="shop"><i class="fas fa-shopping-cart"></i>
+        <div class="shop_car none">
+            <h2>Hello my dear client.</h2>
+            <p>these are your products:</p>
+        </div>
+        </div>
+    </div>
+<main>
+    <div class="container-slider">
+    <div class="slider" id="slider">
+        <div class="slider__section">
+            <img src="Images/b1.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+                <h2 class="slider__title">Drink with your friends is better</h2>
+                <a href="#our" class="slider__link">View now</a>
+            </div>
+        </div>
+        <div class="slider__section">
+            <img src="Images/b2.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+                <h2 class="slider__title">Drink with your friends is better</h2>
+                <a href="#our" class="slider__link">View now</a>
+            </div>
+        </div>
+        <div class="slider__section">
+            <img src="Images/b3.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+                <h2 class="slider__title">Drink with your friends is better</h2>
+                <a href="#our" class="slider__link">View now</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="products">
+        <h2 id="our">Our Selection.</h2>
+        <div class="catalogo" id="app"></div>
+    </div>
+    <div class="recipes">
+        <h2 id="reci">Recipes.</h2>
+        <div class="catalogo_recipes" id="app2"></div>
+    </div>
+    <div class="footer" id="foo">
+        <ul>
+            <li><a href="#slider">Home.</a></li>
+            <li><a href="#our">liquors.</a></li>
+            <li><a href="#reci">Recipes.</a></li>
+            <li><a href="#foo">Contact.</a></li>
+        </ul>
+        <ul>
+            <li><a href="https://www.instagram.com/juancho.p.z/"><i class="fab fa-instagram-square"></i></a></li>
+            <li><a href="https://www.facebook.com/juancho.perez.7503/#our"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href=""><i class="fab fa-whatsapp-square"></i></a></li>
+        </ul>
+        <div class="logo"><img src="Images/Logo.png" alt=""></div>
+    </div>
+    <script src="/Portafolio/Tienda_Licor/js/productos.js"></script>
+    <script src="/Portafolio/Tienda_Licor/js/recipes.js"></script>
+    <script src="/Portafolio/Tienda_Licor/js/slider.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+      $(".menu_bar").on('click', function() {
+        $(".menu").toggle('slow');
+        $('.menu ul').css('display','block');
+        $(".menu li").css('padding-bottom','30px');
+
+      })
+      $(window).resize(function()
+      {
+        if($('.menu').is(':hidden'))
+        {
+            $('.menu').show();
+            $('.menu ul').css('display','flex');
+            $('.menu ul').css('direction-flex','row');
+            $(".menu li").css('padding-bottom','-30px');   
+        }
+
+      })
+    </script>
+</main>
+</body>
+
+</html>
